@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Not In Line</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+
+<body>
+   <div class="bg-container">
+      <nav class='d-flex justify-content-start align-items-center nav-header'>
+         <img class="header-logo" src="assets/AppLogo.png" alt="Logo" />
+         <ul class="nav-list">
+            <li class='active-list'>Home</li>
+            <li class='active-list'>Health conditions</li>
+            <li class='active active-list'>Lab tests</li>
+            <li class='active-list'>Medicines</li>
+         </ul>
+         <div>
+            <button class="nav-btn me-3">For patients</button>
+            <button class="nav-btn">For hospitals</button>
+         </div>
+         <button class="nav-btn play-btn"><img src="assets/Rectangle 48.png" /> Play Store</button>
+      </nav>
+      <div class='d-flex justify-content-start mob-top-container'>
+         <img src="assets/HomeImg.png" alt="home-img" class='home-img' />
+         <div class='d-flex flex-column justify-content-start align-items-center left-card pt-4'>
+            <form class='text-center fill-card'>
+               <h5 class='text-center form-title'>Fill the details to get a call!</h5>
+               <div class='my-3 mob-input'>
+                  <img src="assets/person.png" alt="logo" class='form-img me-1' />
+                  <input type='text' placeholder='Full Name' class='input' />
+               </div>
+               <div class='my-3 mob-input'>
+                  <img src="assets/call.png" alt="logo" class='form-img' style="width: 30px;" />
+                  <input type='number' placeholder='Phone Number' class='input' min={0} />
+               </div>
+               <div class='my-3 mob-input'>
+                  <img src="assets/distance.png" alt="logo" class='form-img' style="width: 30px" />
+                  <input type='text' placeholder='Address' class='input' />
+               </div>
+               <div class='my-3'>
+                  <input type='checkbox' class='me-4 ms-2' />
+                  <span style="font-size:12px;">By continuing, you agree to our T&C and privacy policy</span>
+               </div>
+               <div class='text-center d-flex justify-content-center w-100'><button class='form-btn'>PROCEED</button>
+               </div>
+            </form>
+            <div class="mt-3 d-flex justify-content-start w-100" style="position: relative; left: 15%;">
+               <button class="check-up-btn">Get a Full Body Checkup Now at <span
+                     style="text-decoration: line-through;">₹
+                     5999</span> ₹
+                  999</button>
+               <button class="check-up-btn off-btn">70% OFF</button>
+            </div>
+         </div>
+      </div>
+      <div class='d-flex flex-column justify-content-start align-items-center'>
+         <div class="d-flex justify-content-center p-3">
+            <div class="me-2">
+               <img src="assets/Rectangle 80.png" style="width: 55px;" />
+               <span style="font-weight: bold;">NABL Accredited Labs</span>
+            </div>
+            <div class="ms-2">
+               <img src="assets/Rectangle 81.png" style="width: 55px;" />
+               <span style="font-weight: bold;">Free sample collection</span>
+            </div>
+         </div>
+         <div class="d-flex flex-column justify-content-start align-items-center">
+            <h1>We keep <span style="color: #138ED1;">expanding</span>!</h1>
+            <img src="assets/Vector 2.png" class="align-self-end" style="width: 200px;" />
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
